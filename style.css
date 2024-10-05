@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:url("a2.jpg") no-repeat;
+    background-size: cover;
+}
+
+.title{
+    width: 420px;
+    background-color: transparent;
+    border:2px solid #e14ac3;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px #bd4bbb;
+    color: azure;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.title .login{
+    font-size: 16px;
+    text-align: center;
+
+}
+/* .title button:hover{
+    background-color: rgb(244, 34, 34);
+    color: pink;
+} */
+
+.title .user{
+    width: 100%;
+    height: 50px;
+    margin:30px 0;
+    color: white;
+    font-family: Georgia
+
+}
+input{
+    color:#ffffff;
+}
+.user input{
+    height:100%;
+    width:100%;
+    background-color:transparent;
+    border-radius: 40px;
+    border:none;
+    outline:none;
+    border: 2px solid #d4bfbf;
+    font-size: 20px;
+    padding: 20px 45px 20px 20px;
+}
+
+.user input::placeholder{
+    color:white;
+}
+.Remember {
+    display: flex;
+    justify-content:space-between;
+    font-size: 18px;
+    margin: -15px 0 15px;
+
+}
+.Remember a{
+    text-decoration: none;
+    color: white;
+}
+.Remember a:hover{
+    text-decoration: underline;
+}
+.btn{
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #493d3d;
+    cursor:pointer;
+    font-weight: 500;
+}
+.end {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 15px;
+}
+.end p a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.end p a:hover {
+    text-decoration: underline;
+}
